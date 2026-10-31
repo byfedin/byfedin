@@ -5,11 +5,11 @@ Based in **Tbilisi, Georgia**. Open to relocation to the **US, Canada, Europe, a
 
 [Portfolio](https://byfedin.dev) · [Résumé PDF](https://byfedin.dev/Evgenii-Fedin-Android-Engineer.pdf) · [LinkedIn](https://www.linkedin.com/in/evgenii-fedin/) · [Email](mailto:evgenii@byfedin.dev)
 
-## Android engineering, from architecture to release
+## About
 
-I own Android development within Galaksion’s internal mobile studio. My work spans architecture, implementation, subscription monetization, analytics, Google Play releases, and post-launch iteration.
+Android engineer with 4+ years of experience building and shipping consumer apps with Kotlin and Jetpack Compose. I lead Android development in Galaksion’s in-house mobile studio, where I own technical decisions, architecture and Google Play releases, and work directly with product on what we build next and how it earns money.
 
-Working alongside our iOS engineer, I also contribute to product discovery, idea validation, and monetization decisions.
+My strongest area is the part of mobile development that touches revenue: Google Play Billing subscriptions and regional pricing (subscription conversion up 15–25%), server-side purchase validation, install attribution, and analytics with A/B experiments. CI/CD pipelines I built cut manual release work by about 40%.
 
 ## Selected projects
 
@@ -23,12 +23,13 @@ Commercial Android case studies and a runnable open-source code sample.
 
 ## Selected experience
 
-- Owned Android development and Google Play release delivery for Core Defense, a defender app with device security insights.
-- Implemented subscription plans, regional pricing, purchase validation, and attribution.
-- Built an analytics abstraction for Firebase and AppMetrica, with funnel tracking and Remote Config experiments.
-- Developed on-device risk scoring using 20+ behavioral and permission-based signals.
-- Built GitLab CI/CD pipelines for Android build and release workflows.
-- Currently developing reusable Android infrastructure for analytics, billing, attribution, and remote configuration.
+- Led development and Google Play release of Core Defense, an Android device security app, including on-device risk scoring from 20+ permission and behavior signals.
+- Shipped Google Play Billing subscriptions with several plans and regional pricing; subscription conversion rose 15–25%.
+- Added server-side purchase validation and Install Referrer attribution, with purchase-token deduplication.
+- Wrote a single analytics layer over Firebase and AppMetrica with funnel events and Remote Config A/B tests.
+- Built the real-time chat module of a dating app for the UAE, Qatar and Saudi Arabia in Jetpack Compose.
+- Set up GitLab CI/CD for Android builds and releases; manual release work dropped by about 40%.
+- Now building a shared Android foundation (project template plus billing, analytics, attribution and Remote Config modules) for new studio apps.
 
 ## Core technologies
 
