@@ -20,6 +20,8 @@ Commercial Android case studies and a runnable open-source code sample.
 | **[Offer Catalog](https://github.com/byfedin/offer-catalog-android)** | Open-source Compose catalog with cancellable search, pagination, state restoration and behaviour tests. | [Source & run instructions](https://github.com/byfedin/offer-catalog-android#readme) · [Checks](https://github.com/byfedin/offer-catalog-android/actions) |
 | **[ClickMoney](https://github.com/byfedin/clickmoney-android)** | Offer discovery, reward flows, analytics, and verified APK updates. Full Android ownership. | [Case study](https://byfedin.dev/clickmoney) · [Demo](https://byfedin.dev/clickmoney#demo-title) |
 | **[Core Defense](https://github.com/byfedin/core-defense-android)** | Device security insights, on-device scoring, Google Play Billing, analytics, and release delivery. | [Case study](https://byfedin.dev/core-defense) · [Demo](https://byfedin.dev/core-defense#demo-title) |
+| **[Zephyr Browser](https://github.com/byfedin/zephyr-browser-android)** | WebView browser with per-country proxy routing through AndroidX WebKit, EasyList-based ad blocking and private mode. 10K+ installs on Google Play. | [Case study](https://byfedin.dev/zephyr) |
+| **[Future Lines](https://github.com/byfedin/future-lines-android)** | AI palmistry app: guided CameraX capture with an ML Kit hand check, plus Google Play and direct-APK builds with separate billing. | [Case study](https://byfedin.dev/future-lines) |
 
 ## Selected experience
 
@@ -27,13 +29,15 @@ Commercial Android case studies and a runnable open-source code sample.
 - Shipped Google Play Billing subscriptions with several plans and regional pricing; subscription conversion rose 15–25%.
 - Added server-side purchase validation and Install Referrer attribution, with purchase-token deduplication.
 - Wrote a single analytics layer over Firebase and AppMetrica with funnel events and Remote Config A/B tests.
+- Shipped Zephyr Browser to Google Play (10K+ installs): a WebView browser with tabs, private mode, a JavaScript bridge, EasyList-based ad blocking and per-country proxy routing via AndroidX WebKit ProxyController.
+- Shipped Future Lines, an AI palmistry app, to Google Play: a CameraX capture flow where ML Kit pose detection checks the hand against the guide frame, plus Google Play and direct-APK flavors with separate billing paths.
 - Built the real-time chat module of a dating app for the UAE, Qatar and Saudi Arabia in Jetpack Compose.
 - Set up GitLab CI/CD for Android builds and releases; manual release work dropped by about 40%.
 - Now building a shared Android foundation (project template plus billing, analytics, attribution and Remote Config modules) for new studio apps.
 
 ## Core technologies
 
-**Android:** Kotlin, Jetpack Compose, Android SDK, XML, Coroutines & Flow  
+**Android:** Kotlin, Jetpack Compose, Android SDK, XML, Coroutines & Flow, WebView, CameraX, ML Kit  
 **Architecture:** Clean Architecture, MVVM/MVI, unidirectional data flow  
 **Data & integrations:** Hilt/Dagger, Retrofit, OkHttp, Room, DataStore, WorkManager  
 **Product & delivery:** Google Play Billing, Firebase, AppMetrica, GitLab CI/CD  
